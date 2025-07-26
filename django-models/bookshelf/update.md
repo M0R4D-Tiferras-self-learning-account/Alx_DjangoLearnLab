@@ -1,5 +1,6 @@
-# Update books
-from bookshelf.models import Book
-book = Book.objects.get(title='1984')
-book.title="Nineteen Eighty-Four"
+# Update Operation
+```python
+book.title = "Nineteen Eighty-Four"
 book.save()
+
+<Book: Nineteen Eighty-Four>
